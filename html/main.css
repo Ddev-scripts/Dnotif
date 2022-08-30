@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    position: relative;
+    height: 70vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.notification-container {
+    display: flex;
+    min-width: 300px;
+    min-height: 150px;
+    overflow: hidden;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.notification-header {
+    display: inline-block;
+    max-height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.notification-header-logo{
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+    height: 64px;
+    width: 64px;
+    float:left;
+}
+
+.notification-header-logo2{
+    padding-top: 3px;
+    width: 25px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    padding-right: 2px;
+    margin: 10px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-block;
+    border: #FFFFFF solid 2px;
+}
+
+.notification-header-titles {
+    height: 64px;
+    margin-left: 69px;
+    margin-top: 5px;
+}
+
+.notification-header-title {
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.notification-header-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00a8ff;
+    margin-top: 5px;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+
+.notification-header-content {
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align:justify;
+}
+
+.notification-header-content > p{
+    margin: 0;
+}
+
+.important{
+    color: #ff0f0f!important;
+}
